@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+langgraph
+langchain
+pydantic
+tavily-python
+python-dotenv
+google-generativeai
