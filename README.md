@@ -152,12 +152,6 @@ Same flow applies for hotels and itinerary planning.
 
 ---
 
-## 📸 Screenshots
-
-*(Add screenshots here to boost visual impact)*
-
----
-
 
 
 
