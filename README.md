@@ -1,4 +1,4 @@
-# 🌍 TripWeave
+# TripWeave
 
 **Plan smarter. Travel better.**
 
@@ -9,33 +9,33 @@ This project is built with a strong focus on **correct system design** - using L
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### ✈️ Real-Time Flight Search
+### Real-Time Flight Search
 
 * Powered by **Amadeus Flights API**
 * Accurate airline data, pricing, baggage, and timings
 * No LLM hallucinations for factual data
 
-### 🏨 Hotel Discovery
+### Hotel Discovery
 
 * Powered by **Google Hotels via SERP API**
 * Real hotel prices, ratings, images, and reviews
 * Graceful handling of missing pricing data
 
-### 🧠 AI-Powered Itinerary Planning
+### AI-Powered Itinerary Planning
 
 * LLM-generated multi-day itineraries
 * Natural language explanations and recommendations
 * Toggleable LLM narration layer
 
-### 🔀 Agentic Architecture
+### Agentic Architecture
 
 * Built using **LangGraph**
 * Coordinator agent routes user intent
 * Specialized agents for flights, hotels, and itinerary planning
 
-### ⚡ Modern Frontend
+### Modern Frontend
 
 * Clean, responsive React UI
 * Separate sections for Flights, Hotels, and Itineraries
@@ -43,7 +43,7 @@ This project is built with a strong focus on **correct system design** - using L
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
 Frontend (React)
@@ -63,7 +63,7 @@ Coordinator Agent (LangGraph)
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -79,22 +79,22 @@ Coordinator Agent (LangGraph)
 
 ### APIs & Services
 
-* ✈️ Amadeus Flights API
-* 🏨 SERP API (Google Hotels)
-* 🧠 Gemini LLM (itinerary generation only)
+* Amadeus Flights API
+* SERP API (Google Hotels)
+* Gemini LLM (itinerary generation only)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/<your-username>/tripweave.git
 cd tripweave
 ```
 
-### 2️⃣ Backend setup
+### Backend setup
 
 ```bash
 cd backend
@@ -120,7 +120,7 @@ uvicorn main:app --reload
 
 ---
 
-### 3️⃣ Frontend setup
+### Frontend setup
 
 ```bash
 cd frontend
@@ -130,7 +130,7 @@ npm run dev
 
 ---
 
-## 🧪 How It Works (Example Flow)
+## How It Works (Example Flow)
 
 1. User enters:
    **“Find flights from Delhi to Dubai on 25 Dec”**
@@ -142,13 +142,13 @@ Same flow applies for hotels and itinerary planning.
 
 ---
 
-## 🧠 Key Design Decisions
+## Key Design Decisions
 
-* ❌ LLMs are **not** used for prices or availability
-* ✅ APIs are used for all factual travel data
-* ✅ LLMs are only used where reasoning and explanation are needed
-* ✅ Graceful fallbacks handle unreliable sandbox APIs
-* ✅ Modular agents allow easy extension
+* LLMs are **not** used for prices or availability
+* APIs are used for all factual travel data
+* LLMs are only used where reasoning and explanation are needed
+* Graceful fallbacks handle unreliable sandbox APIs
+* Modular agents allow easy extension
 
 ---
 
