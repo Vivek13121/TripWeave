@@ -8,6 +8,19 @@ It combines **reliable real-world APIs** with **LLM-driven reasoning**, orchestr
 This project is built with a strong focus on **correct system design** - using LLMs where reasoning is needed, and APIs where factual accuracy matters.
 
 ---
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/ss1.png" width="45%" />
+  <img src="screenshots/ss2.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="screenshots/ss3.png" width="45%" />
+  <img src="screenshots/ss4.png" width="45%" />
+</p>
+
+---
 
 ## ✨ Key Features
 
